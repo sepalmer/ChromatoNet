@@ -19,7 +19,7 @@ ChromatoNet also provides a testbed for inferring biophysical parameters from re
 
 This repository contains the simulation code and examples for:
 
-> Ersoy Y, Peter R, Barello G, Meyer E, Mackevicius EL, Senft SL, Hanlon RT, Ermentrout GB, Palmer SE. *ChromatoNet: Bio-inspired chromatophore network model generates dynamic skin patterns akin to those observed in cephalopods.* [citation placeholder]
+> Ersoy Y, Peter R, Barello G, Meyer E, Mackevicius EL, Senft SL, Hanlon RT, Ermentrout GB, Palmer SE. *Bio-inspired chromatophore network model generates dynamic skin patterns akin to those observed in cephalopods.* [citation placeholder]
 
 ## Files
 
