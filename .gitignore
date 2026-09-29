@@ -5,3 +5,4 @@ __pycache__/
 *.pyc
 *.csv
 *.mov
+media_plos_format/
