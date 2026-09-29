@@ -1,0 +1,11 @@
+# ChromatoNet
+# Tested with Python 3.11.13
+
+torch==2.3.1
+numpy==2.3.3
+matplotlib==3.10.6
+scipy==1.16.2
+jupyter==1.1.1
+
+# Optional: video output (animation.save, 'html5' display) without a system ffmpeg
+imageio-ffmpeg==0.6.0
