@@ -2,11 +2,11 @@
 
 Voltage quantities are dimensionless (normalized to vca) and time is in
 seconds. Any parameter can be made position dependent by passing a function
-f(position) through params in chromanet.ChromatoNet.
+f(position) through params in chromatonet.ChromatoNet.
 """
 
 DEFAULT2D: dict[str, float] = {
-    'dt': .01,  # Integration time step (not used; run() takes dt).
+    'dt': 0.1,  # Integration time step (not used; run() takes dt).
     'Iapp': .15,  # Baseline applied current.
     'phi': .05,  # Rate scaling of the gating variable w.
     'va': -.01,  # Ca activation midpoint (m_inf).
@@ -17,7 +17,7 @@ DEFAULT2D: dict[str, float] = {
     'gcmax': .1,  # Maximum stretch-sensitive Ca conductance.
     'gk': 2.,  # K conductance.
     'vk': -.7,  # K reversal potential.
-    'gl': 0.6,  # Leak conductance.
+    'gl': 0.42,  # Leak conductance.
     'vl': -.5,  # Leak reversal potential.
     'lth': 1.1,  # Stretch activation threshold (in units of L0).
     'sig': .1,  # Stretch activation sharpness.
@@ -31,7 +31,7 @@ DEFAULT2D: dict[str, float] = {
     'x0': 1.,  # Not used by the simulator.
     'vca': 1.0,  # Ca reversal potential.
     'kc': 2.,  # Chromatophore-muscle coupling.
-    'ks': 1.,  # Skin spring constant.
+    'ks': .5,  # Skin spring constant.
     'vinit': -.266,  # Initial membrane voltage.
     'winit': .144,  # Initial gating variable.
 }
